@@ -55,28 +55,28 @@ public class Week3Assignment {
 			for (int name : nameLengths) {
 			sumOfNameLengths += name;
 			}
-			System.out.println("\n" + "The sum of the name lengths is: "+ sumOfNameLengths);
+		System.out.println("\n" + "The sum of the name lengths is: "+ sumOfNameLengths);
 			
-			System.out.println(createWordRepeat("banana", 7)); // print statement for part 7
+		System.out.println(createWordRepeat("banana", 7)); // print statement for part 7
+		
+		System.out.println("My full name is " + createFullName("Lee", "Blanchard")); // print statement for part 8
 			
-			System.out.println("My full name is " + createFullName("Lee", "Blanchard")); // print statement for part 8
+		System.out.println("Is the sum of the array greater than 100? " + (isGreaterThan100(ages))); //print statement for part 9
 			
-			System.out.println("Is the sum of the array greater than 100? " + (isGreaterThan100(ages))); //print statement for part 9
-			
-			int [] daysPerMonth = {31, 29, 31, 30, 31, 30 , 31, 31, 30, 31, 30, 31}; //array for part 10
-			System.out.println("This is the average of days per month: " + isTheAverage(daysPerMonth)); //print statement for part 10
+		int [] daysPerMonth = {31, 29, 31, 30, 31, 30 , 31, 31, 30, 31, 30, 31}; //array for part 10
+		System.out.println("This is the average of days per month: " + isTheAverage(daysPerMonth)); //print statement for part 10
 	
-			double [] costOfSnacks = {1.34, 2.75, 3.45, 1.27}; //arrays and print statement for part 11
-			double [] costOfDrinks = {2.22, 1.89, 2.25, 1.85};
-			System.out.println("Is the average cost of snacks greater than the average cost of drinks? " + isGreaterThan(costOfSnacks, costOfDrinks)); //print statement for part 11
+		double [] costOfSnacks = {1.34, 2.75, 3.45, 1.27}; //arrays and print statement for part 11
+		double [] costOfDrinks = {2.22, 1.89, 2.25, 1.85};
+		System.out.println("Is the average cost of snacks greater than the average cost of drinks? " + isGreaterThan(costOfSnacks, costOfDrinks)); //print statement for part 11
 	
-			boolean isHotOutside = false; //data types and print statement for 12
-			double moneyInPocket = 12.58;
-			System.out.println("Will I buy a drink? " + willBuyDrink(isHotOutside, moneyInPocket));
-			
-			boolean areStinky = true;
-			boolean beenAWeekSinceLastBath = false;
-			System.out.println(shouldGiveABath(areStinky, beenAWeekSinceLastBath));
+		boolean isHotOutside = false; //data types and print statement for 12
+		double moneyInPocket = 12.58;
+		System.out.println("Will I buy a drink? " + willBuyDrink(isHotOutside, moneyInPocket));
+		
+		boolean areStinky = true;
+		boolean beenAWeekSinceLastBath = false;
+		System.out.println(shouldGiveABath(areStinky, beenAWeekSinceLastBath));
 	}
 	/* 7)method takes string, word, and an int, n, as an argument and
 	returns word concatenated to itself n number of times */
