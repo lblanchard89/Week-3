@@ -7,7 +7,7 @@ public class Week3Assignment {
 		}; 
 		
 		// a)subract the value of the first element for the value of the last
-		int lastAge = ages[ages.length -1];;
+		int lastAge = ages[ages.length -1];
 		System.out.println(lastAge - ages [0]); //returns 90
 		
 		// b)add new age and repeat to ensure it is dynamic
