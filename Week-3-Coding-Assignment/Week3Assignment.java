@@ -134,7 +134,7 @@ public class Week3Assignment {
 	a double moneyInPocket, and returns true if it is hot outside and if
 	moneyInPocket is > 10.50 */
 	public static boolean willBuyDrink(boolean x, double y) {
-		return (x == true && y > 10.50); 
+		return x && y > 10.50; 
 	}
 	
 	/* 13)method of my own that solves a problem(write here what it does and why
